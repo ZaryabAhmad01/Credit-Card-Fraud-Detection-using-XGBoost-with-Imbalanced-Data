@@ -119,8 +119,8 @@ weighted avg       1.00      1.00      1.00     56962
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/yourusername/credit-card-fraud-detection-xgboost.git
-cd credit-card-fraud-detection-xgboost
+git clone https://github.com/ZaryabAhmad01/Credit-Card-Fraud-Detection-using-XGBoost-with-Imbalanced-Data.gt
+cd Credit-Card-Fraud-Detection-using-XGBoost-with-Imbalanced-Data
 ```
 
 ### 2. Install Dependencies
@@ -137,26 +137,6 @@ pip install -r requirements.txt
 python fraud_detection.py
 ```
 
-## 📁 Project Structure
-
-```
-credit-card-fraud-detection/
-│
-├── fraud_detection.py        # Main script
-├── requirements.txt          # Dependencies
-├── README.md                # Project documentation
-├── LICENSE                  # MIT License
-│
-├── data/
-│   └── creditcard.csv       # Dataset (not tracked in git)
-│
-├── notebooks/
-│   └── EDA.ipynb           # Exploratory Data Analysis
-│
-└── images/
-    ├── confusion_matrix.png # Confusion matrix visualization
-    └── performance_metrics.png
-```
 
 ## 📦 requirements.txt
 
@@ -177,19 +157,13 @@ imbalanced-learn==0.9.1  # Optional for SMOTE
 3. **Threshold Optimization**: Adjust decision threshold based on business costs
 4. **Feature Engineering**: Additional derived features from Time and Amount
 5. **Model Ensembling**: Combine XGBoost with LightGBM, Random Forest
-6. **Anomaly Detection**: Compare with Isolation Forest, One-Class SVM
-7. **Deep Learning**: LSTM/CNN for sequence-based patterns
-8. **Model Deployment**: Flask API + Docker containerization
+6. **Deep Learning**: LSTM/CNN for sequence-based patterns
+7. **Model Deployment**: Flask API + Docker containerization
 
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## 📄 License
 
@@ -197,9 +171,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📧 Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_twitter) - your.email@example.com
 
-Project Link: [https://github.com/yourusername/credit-card-fraud-detection-xgboost](https://github.com/yourusername/credit-card-fraud-detection-xgboost)
+
+Project Link: [https://github.com/ZaryabAhmad01/Credit-Card-Fraud-Detection-using-XGBoost-with-Imbalanced-Data.)
 
 ## 🙏 Acknowledgments
 
